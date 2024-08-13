@@ -13,7 +13,7 @@ playButton.addEventListener('click', () => {
 
     setTimeout(() => {
         wishButton.style.display = 'block';
-    }, 10000); 
+    }, 100); 
 });
 
 wishButton.addEventListener('click', () => {
