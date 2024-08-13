@@ -1,0 +1,55 @@
+body {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0e68c;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+#dancer-container {
+    margin-bottom: 20px;
+}
+
+#dancer {
+    width: 200px;
+    height: auto;
+    animation: dance 1s infinite alternate;
+}
+
+@keyframes dance {
+    from { transform: translateX(-10px); }
+    to { transform: translateX(10px); }
+}
+
+#playButton, #wishButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#playButton:hover, #wishButton:hover {
+    background-color: #ff1493;
+}
+
+#funnyWish {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ff69b4;
+}
